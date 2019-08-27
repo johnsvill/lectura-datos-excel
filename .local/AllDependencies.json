@@ -220,7 +220,38 @@
           "build/_._": {}
         }
       },
-      "UiPath.Excel.Activities/2.6.2": {
+      "UiPath.Cryptography.Activities/1.0.6863.32236": {
+        "type": "package",
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/UiPath.Cryptography.Activities.Design.dll": {},
+          "lib/net452/UiPath.Cryptography.Activities.dll": {},
+          "lib/net452/UiPath.Cryptography.dll": {}
+        },
+        "resource": {
+          "lib/net452/de/UiPath.Cryptography.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net452/de/UiPath.Cryptography.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net452/fr/UiPath.Cryptography.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/fr/UiPath.Cryptography.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/ja/UiPath.Cryptography.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net452/ja/UiPath.Cryptography.Activities.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "UiPath.Excel.Activities/2.6.3": {
         "type": "package",
         "dependencies": {
           "ClosedXML": "0.87.1",
@@ -239,6 +270,15 @@
           "lib/net461/UiPath.Excel.dll": {}
         },
         "resource": {
+          "lib/net461/de/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Excel.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Excel.resources.dll": {
+            "locale": "de"
+          },
           "lib/net461/fr/UiPath.Excel.Activities.Design.resources.dll": {
             "locale": "fr"
           },
@@ -256,6 +296,24 @@
           },
           "lib/net461/ja/UiPath.Excel.resources.dll": {
             "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Excel.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Excel.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Excel.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Excel.resources.dll": {
+            "locale": "pt-BR"
           },
           "lib/net461/ru/UiPath.Excel.Activities.Design.resources.dll": {
             "locale": "ru"
@@ -816,29 +874,57 @@
         "uipath.nuspec"
       ]
     },
-    "UiPath.Excel.Activities/2.6.2": {
-      "sha512": "nIkHK19PEjBDmQEiMmH7ZIi2mK6M/E7AXH2zhepOcFL/pf2dk9ZGuVBhs7ijhzlpBk1dzdNAfKWQ0wj58WG2kA==",
+    "UiPath.Cryptography.Activities/1.0.6863.32236": {
+      "sha512": "gg12dujUChAwqft3S6zq2TkGdIVYJoIXBMYHHpgTgVl4Xna+/YRFsPMkA9Lmjnxqs4tvrq3NqSDjqwydiOLPSg==",
       "type": "package",
-      "path": "uipath.excel.activities/2.6.2",
+      "path": "uipath.cryptography.activities/1.0.6863.32236",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net452/UiPath.Cryptography.Activities.Design.dll",
+        "lib/net452/UiPath.Cryptography.Activities.dll",
+        "lib/net452/UiPath.Cryptography.dll",
+        "lib/net452/de/UiPath.Cryptography.Activities.Design.resources.dll",
+        "lib/net452/de/UiPath.Cryptography.Activities.resources.dll",
+        "lib/net452/fr/UiPath.Cryptography.Activities.Design.resources.dll",
+        "lib/net452/fr/UiPath.Cryptography.Activities.resources.dll",
+        "lib/net452/ja/UiPath.Cryptography.Activities.Design.resources.dll",
+        "lib/net452/ja/UiPath.Cryptography.Activities.resources.dll",
+        "uipath.cryptography.activities.1.0.6863.32236.nupkg.sha512",
+        "uipath.cryptography.activities.nuspec"
+      ]
+    },
+    "UiPath.Excel.Activities/2.6.3": {
+      "sha512": "50qJpLt8ubH2QDJ0ttcfh/3r8zVIz769MsglLey7gInjxStuSY1LQal8r7FvaMcI5DE8KmAzckmQRsu7PF75lQ==",
+      "type": "package",
+      "path": "uipath.excel.activities/2.6.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net461/UiPath.Excel.Activities.Design.dll",
         "lib/net461/UiPath.Excel.Activities.dll",
         "lib/net461/UiPath.Excel.dll",
+        "lib/net461/de/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/de/UiPath.Excel.resources.dll",
         "lib/net461/fr/UiPath.Excel.Activities.Design.resources.dll",
         "lib/net461/fr/UiPath.Excel.Activities.resources.dll",
         "lib/net461/fr/UiPath.Excel.resources.dll",
         "lib/net461/ja/UiPath.Excel.Activities.Design.resources.dll",
         "lib/net461/ja/UiPath.Excel.Activities.resources.dll",
         "lib/net461/ja/UiPath.Excel.resources.dll",
+        "lib/net461/ko/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/ko/UiPath.Excel.resources.dll",
+        "lib/net461/pt-BR/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.Excel.resources.dll",
         "lib/net461/ru/UiPath.Excel.Activities.Design.resources.dll",
         "lib/net461/ru/UiPath.Excel.Activities.resources.dll",
         "lib/net461/ru/UiPath.Excel.resources.dll",
         "lib/net461/zh-CN/UiPath.Excel.Activities.Design.resources.dll",
         "lib/net461/zh-CN/UiPath.Excel.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.Excel.resources.dll",
-        "uipath.excel.activities.2.6.2.nupkg.sha512",
+        "uipath.excel.activities.2.6.3.nupkg.sha512",
         "uipath.excel.activities.nuspec"
       ]
     },
@@ -1064,7 +1150,8 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "UiPath.Excel.Activities >= 2.6.2 <= 2.6.2",
+      "UiPath.Cryptography.Activities >= 1.0.6863.32236 <= 1.0.6863.32236",
+      "UiPath.Excel.Activities >= 2.6.3 <= 2.6.3",
       "UiPath.Mail.Activities >= 1.5.1 <= 1.5.1",
       "UiPath.System.Activities >= 19.7.0 <= 19.7.0",
       "UiPath.UIAutomation.Activities >= 19.7.0 <= 19.7.0"
@@ -1084,10 +1171,15 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "UiPath.Cryptography.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.6863.32236, 1.0.6863.32236]"
+          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[2.6.2, 2.6.2]"
+            "version": "[2.6.3, 2.6.3]"
           },
           "UiPath.Mail.Activities": {
             "include": "Runtime",

@@ -3,7 +3,8 @@
   "description": "Proyecto básico",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.6.2]",
+    "UiPath.Cryptography.Activities": "[1.0.6863.32236]",
+    "UiPath.Excel.Activities": "[2.6.3]",
     "UiPath.Mail.Activities": "[1.5.1]",
     "UiPath.System.Activities": "[19.7.0]",
     "UiPath.UIAutomation.Activities": "[19.7.0]"

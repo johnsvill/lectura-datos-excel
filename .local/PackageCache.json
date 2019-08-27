@@ -2,22 +2,13 @@
   "Packages": [
     {
       "Package": {
-        "Id": "UiPath.Excel.Activities",
-        "Version": "2.6.2"
+        "Id": "UiPath.Cryptography.Activities",
+        "Version": "1.0.6863.32236"
       },
       "Assemblies": [
-        "C:\\Users\\BDGSA\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.excel.activities/2.6.2\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.excel.activities/2.6.2\\lib/net461/UiPath.Excel.Activities.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.excel.activities/2.6.2\\lib/net461/UiPath.Excel.dll"
+        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.cryptography.activities/1.0.6863.32236\\lib/net452/UiPath.Cryptography.Activities.Design.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.cryptography.activities/1.0.6863.32236\\lib/net452/UiPath.Cryptography.Activities.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.cryptography.activities/1.0.6863.32236\\lib/net452/UiPath.Cryptography.dll"
       ]
     },
     {
@@ -68,10 +59,10 @@
       },
       "Assemblies": [
         "C:\\Users\\BDGSA\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\BDGSA\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "C:\\Users\\BDGSA\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "C:\\Users\\BDGSA\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\BDGSA\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
         "C:\\Users\\BDGSA\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
         "C:\\Users\\BDGSA\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
@@ -97,11 +88,31 @@
         "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
         "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Core.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.dll",
         "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Microsoft.dll",
         "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Excel.Activities",
+        "Version": "2.6.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\BDGSA\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.excel.activities/2.6.3\\lib/net461/UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.excel.activities/2.6.3\\lib/net461/UiPath.Excel.Activities.dll",
+        "C:\\Users\\BDGSA\\.nuget\\packages\\uipath.excel.activities/2.6.3\\lib/net461/UiPath.Excel.dll"
       ]
     }
   ],
@@ -207,9 +218,14 @@
       "Version": "19.7.7128.27029",
       "Dependencies": []
     },
+    "UiPath.Cryptography.Activities": {
+      "Id": "UiPath.Cryptography.Activities",
+      "Version": "1.0.6863.32236",
+      "Dependencies": []
+    },
     "UiPath.Excel.Activities": {
       "Id": "UiPath.Excel.Activities",
-      "Version": "2.6.2",
+      "Version": "2.6.3",
       "Dependencies": [
         {
           "Item1": "ClosedXML",
